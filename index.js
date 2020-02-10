@@ -30,5 +30,5 @@ function requestHandler(req,res) {
   res.end();
 }
 
-app.listen(process.env.PORT, () => console.log('server up') );
+app.listen(process.env.PORT, () => console.log('server up on ' + process.env.PORT) );
 
